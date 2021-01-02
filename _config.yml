@@ -28,6 +28,8 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
+page_paths:
+
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://atemaguer.dev' # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -37,7 +39,7 @@ minima:
   # generate social links in footer
   social_links:
     github: albystein
-
+    twitter: leithnyang
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
